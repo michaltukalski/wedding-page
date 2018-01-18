@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  background-color: black;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.savethedateimg {
+  height: 100%;
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .savethedateimg {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+  }
+  
+}
